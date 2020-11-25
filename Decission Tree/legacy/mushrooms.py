@@ -1,5 +1,6 @@
 import pandas as pd;
 import numpy as np;
+import json;
 
 class Mushroom:
     mushrooms = {};
@@ -82,4 +83,5 @@ class Mushroom:
 
 
 m1 = Mushroom();
-print(m1.evaluate({'odor': 'n', 'spore-print-color': 'n'}, 'odor', m1.map));
+print(m1.map);
+# print(m1.evaluate({'odor': 'n', 'spore-print-color': 'n'}, 'odor', m1.map));
